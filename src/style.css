@@ -22,13 +22,12 @@
     width: 740px;
     height: 82px;
     display: flex; 
-    padding-left: 300px;
     box-sizing: border-box;
-    
+    margin-left: 320px;
 }
 li{
     display: inline;
-    font-size: 30px;
+    font-size: 28px;
     padding: 0 10px;
     box-sizing: border-box;
     color: rgba(4, 4, 136, 0.877);
@@ -38,7 +37,7 @@ li{
     margin: 20px 50px;
     font-size: 400px;
     text-align: center;
-    color: orange;
+    color: rgb(226, 86, 21);
     font-family: Roboto;
 }
 .Buttons{
@@ -92,14 +91,14 @@ li{
 .intocode{
     padding: 20px;
     font-size: 18px;
-    margin: 10px;
+    margin: 10px 0;
     color: gray;
     font-family: Roboto;
 }
 .footLogo{
     font-size: 30px;
     color: gray;
-    padding: 15px;
+    padding: 15px 0;
     box-sizing: border-box;
     height: 60px;
     margin: 10px;
