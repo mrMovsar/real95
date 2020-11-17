@@ -22,7 +22,7 @@
     width: 740px;
     height: 82px;
     display: flex; 
-    padding-left: 340px;
+    padding-left: 300px;
     box-sizing: border-box;
     
 }
@@ -32,12 +32,14 @@ li{
     padding: 0 10px;
     box-sizing: border-box;
     color: rgba(4, 4, 136, 0.877);
+    font-family: Roboto;
 }
 .Number{
     margin: 20px 50px;
     font-size: 400px;
     text-align: center;
     color: orange;
+    font-family: Roboto;
 }
 .Buttons{
     width: 940px;
@@ -51,6 +53,7 @@ li{
     padding: 15px 20px;
     margin: 0 50px;
     font-size: 25px;
+    font-family: Roboto;
     border: none;
     border-radius: 4px;
 }
@@ -66,11 +69,16 @@ li{
     background-color: grey;
     color: black;
 }
+.footerWrap{
+    position: relative;
+}
 .footer{
-    width: 100%;
+    width: 940px;
     height: 80px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    bottom: 0;
 }
 .footMenu{
     display: flex;
@@ -79,13 +87,14 @@ li{
 .footMenuc{
     padding: 20px;
     font-size: 18px;
-    color: rgb(138, 91, 58);
+    font-family: Roboto;
 }
 .intocode{
     padding: 20px;
     font-size: 18px;
     margin: 10px;
     color: gray;
+    font-family: Roboto;
 }
 .footLogo{
     font-size: 30px;
